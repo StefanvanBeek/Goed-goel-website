@@ -1,0 +1,84 @@
+*:root {
+    --primary-bg-color: #F5C535;
+    --secondary-bg-color: white;
+}
+
+html {
+    font-family: Bahianita;
+}
+
+nav {
+    display: flex;          
+    align-items: center;      
+    gap: 100px;                
+    background-color: white;
+    padding: 0px 80px;
+    line-height: 1;
+    font-size: 40px;
+    background-color: var(--secondary-bg-color);
+}
+
+.nav image{
+    cursor: pointer;
+}
+
+.doneer {
+    background-color: var(--primary-bg-color);
+    border-radius: 56px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+.Hero {
+    padding: 80px 10px;
+}
+
+.geelbox {
+    background-color: var(--primary-bg-color);
+    padding: 5px;
+    border-radius: 56px;
+    margin-left: 200px;
+    margin-right: 1000px;
+}
+
+.WereldAlzheimerDag {
+    font-size: 32px;
+    text-align: center;
+}
+.Alzheimer1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.LeesMeer{
+    font-size: 24px;
+    text-align: center;
+    background-color: var(--secondary-bg-color);
+    border-radius: 56px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.background_hero {
+    width: 100%;
+    height: 60vh;
+    background-image: url("images/hero.png");
+    /* background-color: red; */
+    /* background-repeat: repeat-y ; */
+    background-repeat: no-repeat;
+      background-size:cover;
+
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+.cursor {
+    cursor: pointer;
+}
