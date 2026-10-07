@@ -22,8 +22,7 @@ body {
 
 .Pinkcolor {
     color: #D4006E;
-    padding: 40px 0;
-    cursor: pointer;
+    padding: 20px 0;
 }
 
 
@@ -176,4 +175,47 @@ section {
 
 h1, p {
     margin: 0;
+}
+
+
+/*Activiteiten*/
+.Activiteiten {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 48px;
+}
+
+.Activiteiten > p {
+    color: grey;
+    font-size: 24px;
+}
+
+.box3 {
+    width: 476px;
+    height: 326.4px;
+    background-color: #FFFBE6;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: 24px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.box4 {
+    width: 476px;
+    height: 326.4px;
+    background-color: #FFFBE6;
+    border-radius: 20px;
+    padding:  40px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.Minigeelbox{
+    background-color: var(--primary-bg-color);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 680px;
+    margin-right: 680px;
+    font-size: 24px;
 }
