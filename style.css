@@ -218,4 +218,150 @@ h1, p {
     margin-left: 680px;
     margin-right: 680px;
     font-size: 24px;
+    cursor: pointer;
+}
+
+/* Donaties */
+.Donaties{
+    text-align: center;
+    background-color: #FFEDB9;
+    padding: 40px 0;
+}
+
+.Donatiebox {
+    padding: 20px;
+    background-color: var(--primary-bg-color);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-weight: normal;
+}
+
+.Donatiebox > p {
+    font-size: 24px;
+}
+
+.Minibox {
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 60%);
+    font-weight: normal;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Minibox > h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.Minibox > p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.ColorMinibox {
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 100%);
+    font-weight: normal;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+.ColorMinibox > h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.ColorMinibox > p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.GreycolorD {
+    color: rgba(0, 0, 0, 70%)
+}
+
+.containerG {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.Blackbox {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 30px;
+    width: 250px;
+    margin-left: 75px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.Greycolor > p {
+    font-size: 14px;
+}
+
+
+/*Reviews*/
+.Reviews {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #FFFBE6;
+}
+
+.Rbox {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.Rbox > h1 {
+    color: var(--primary-bg-color);
+    padding: 20px 20px;
+}
+
+.Rbox > p {
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.MiniContainer {
+    display: flex;
+    padding: 40px 10px;
+}
+
+.Yellowball {
+    text-align: center;
+    background-color: var(--primary-bg-color);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.Yellowball > p {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.MiniContainer > .MiniContainer2 > p {
+    font-size: 24px;
+}
+
+.MiniContainer2 {
+    display: block;
+    margin-left: 10px;
 }
