@@ -213,12 +213,13 @@ h1, p {
 
 .Minigeelbox{
     background-color: var(--primary-bg-color);
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
-    margin-left: 680px;
-    margin-right: 680px;
+    margin-left: 650px;
+    margin-right: 650px;
     font-size: 24px;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
 
@@ -252,6 +253,7 @@ h1, p {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    border: 2px solid white;
 }
 
 .Minibox > h4 {
@@ -292,8 +294,8 @@ h1, p {
 .containerG {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 10px 0;
+    gap: 10px;
+    padding: 5px 0;
 }
 
 .Blackbox {
@@ -307,10 +309,12 @@ h1, p {
     margin-left: 75px;
     padding: 10px 0;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .Greycolor > p {
     font-size: 14px;
+    margin-top: 5px;
 }
 
 
